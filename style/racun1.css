@@ -1,0 +1,41 @@
+html,body{
+  font-family: 'Raleway', sans-serif;
+}
+body{
+  background: url('../images/pozadinaPHP.jpg');
+}
+.racun{
+  margin: 20px auto ;
+  width: 30vw;
+  min-height: 15vh;
+
+  font-size: 20px;
+  padding: 10px;
+  position: relative;
+  background: #DCDCEC70;
+  border-radius: 10px;
+}
+.cena{
+  min-width: 50px;
+  min-height: 40px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: #EE0E2A;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px 0px 5px;;
+  border-radius: 10px;
+  vertical-align: middle;
+  text-shadow: 2px 2px 5px #000000;
+
+}
+span{
+  color:red;
+  font-weight:bold;
+}
+.datum{
+  position: absolute;
+  bottom: 5px;
+}

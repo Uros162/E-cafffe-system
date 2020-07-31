@@ -1,0 +1,52 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Slabo 27px', serif;
+
+}
+body{
+  background: url('../images/pod.jpeg');
+  background-size: cover;
+
+}
+
+.dugmad{
+  display: flex;
+  margin: 30px auto;
+  width: 50vw;
+  height:70px;
+  justify-content:space-around;
+
+
+
+}
+
+.dugme {
+  flex-grow: 1;
+  background: blue;
+  margin: 10px;
+  border-radius: 10px;
+  border:2px solid white;
+  padding: 10px ;
+  font-size: 18px;
+  color: white;
+  transition: 400ms;
+  text-align: center;
+  text-decoration: none;
+  font-weight: lighter;
+
+}
+
+a:first-child{
+  padding: 0;
+}
+
+.dugme:hover{
+  background: white;
+  color: blue;
+  cursor: pointer;
+}
+
+#odjava{
+
+}
